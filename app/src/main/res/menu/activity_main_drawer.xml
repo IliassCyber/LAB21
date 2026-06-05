@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_sensors"
+            android:icon="@drawable/ic_sensors"
+            android:title="Sensors List" />
+        <item
+            android:id="@+id/nav_temp"
+            android:icon="@mipmap/temp"
+            android:title="Ambient Temperature" />
+        <item
+            android:id="@+id/nav_humidity"
+            android:icon="@mipmap/humd"
+            android:title="Relative Humidity" />
+        <item
+            android:id="@+id/nav_proximity"
+            android:icon="@mipmap/proximity"
+            android:title="Proximity Sensor" />
+        <item
+            android:id="@+id/nav_magnetic"
+            android:icon="@mipmap/magnetic"
+            android:title="Magnetic Field" />
+        <item
+            android:id="@+id/nav_accel"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Accelerometer" />
+        <item
+            android:id="@+id/nav_gravity"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Gravity Sensor" />
+        <item
+            android:id="@+id/nav_gyro"
+            android:icon="@drawable/ic_baseline_screen_rotation_24"
+            android:title="Gyroscope" />
+        <item
+            android:id="@+id/nav_steps"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Step Counter" />
+        <item
+            android:id="@+id/nav_compass"
+            android:icon="@mipmap/compass"
+            android:title="Digital Compass" />
+        <item
+            android:id="@+id/nav_activity"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Activity Recognition" />
+    </group>
+
+</menu>
